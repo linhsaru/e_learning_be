@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="elearning.ContentService.API/elearning.ContentService.Api.csproj" />
+  <Project Path="elearning.ContentService.Application/elearning.ContentService.Application.csproj" />
+  <Project Path="elearning.ContentService.Domain/elearning.ContentService.Domain.csproj" />
+  <Project Path="elearning.ContentService.Infrastructure/elearning.ContentService.Infrastructure.csproj" />
+  <Project Path="SharedKernel/SharedKernel.csproj" />
+</Solution>

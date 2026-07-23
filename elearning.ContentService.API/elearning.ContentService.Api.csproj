@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Program.ConfigureService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Program.ConfigureService.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\Courses\" />
+    <Folder Include="Controllers\MasterData\" />
+    <Folder Include="Controllers\Lessons\" />
+    <Folder Include="Controllers\Knowledge\" />
+    <Folder Include="Controllers\Media\" />
+    <Folder Include="Controllers\Assessment\" />
+    <Folder Include="Controllers\Questions\" />
+    <Folder Include="Middlewares\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\elearning.Application\elearning.ContentService.Application.csproj" />
+    <ProjectReference Include="..\elearning.ContentService.Application\elearning.ContentService.Application.csproj" />
+    <ProjectReference Include="..\elearning.ContentService.Infrastructure\elearning.ContentService.Infrastructure.csproj" />
+    <ProjectReference Include="..\elearning.Infrastructure\elearning.ContentService.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

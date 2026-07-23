@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\elearning.ContentService.Domain\elearning.ContentService.Domain.csproj" />
+    <ProjectReference Include="..\elearning.Domain\elearning.ContentService.Domain.csproj" />
+    <ProjectReference Include="..\SharedKernel\SharedKernel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Courses\Commands\" />
+    <Folder Include="Courses\DTOs\" />
+    <Folder Include="Courses\Queries\" />
+    <Folder Include="Knowledge\" />
+    <Folder Include="Lessons\" />
+    <Folder Include="MasterData\" />
+    <Folder Include="Media\" />
+    <Folder Include="Behaviors\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Common\" />
+    <Folder Include="Assessment\" />
+    <Folder Include="Questions\" />
+  </ItemGroup>
+
+</Project>

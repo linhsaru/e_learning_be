@@ -1,0 +1,563 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\vcs_project\\elearning\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|d:\\vcs_project\\elearning\\sharedkernel\\specifications\\basespecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|solutionrelative:sharedkernel\\specifications\\basespecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|d:\\vcs_project\\elearning\\sharedkernel\\common\\aggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|solutionrelative:sharedkernel\\common\\aggregateroot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{579C6A82-4FFC-4017-EB14-4C0285D718BF}|elearning.ContentService.API\\elearning.ContentService.Api.csproj|d:\\vcs_project\\elearning\\elearning.contentservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{579C6A82-4FFC-4017-EB14-4C0285D718BF}|elearning.ContentService.API\\elearning.ContentService.Api.csproj|solutionrelative:elearning.contentservice.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{579C6A82-4FFC-4017-EB14-4C0285D718BF}|elearning.ContentService.API\\elearning.ContentService.Api.csproj|d:\\vcs_project\\elearning\\elearning.contentservice.api\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{579C6A82-4FFC-4017-EB14-4C0285D718BF}|elearning.ContentService.API\\elearning.ContentService.Api.csproj|solutionrelative:elearning.contentservice.api\\globalusing.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9A7D0E0-C95C-1FD5-7AE8-097BD3F3952D}|elearning.ContentService.Domain\\elearning.ContentService.Domain.csproj|d:\\vcs_project\\elearning\\elearning.contentservice.domain\\elearning.contentservice.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D9A7D0E0-C95C-1FD5-7AE8-097BD3F3952D}|elearning.ContentService.Domain\\elearning.ContentService.Domain.csproj|solutionrelative:elearning.contentservice.domain\\elearning.contentservice.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{579C6A82-4FFC-4017-EB14-4C0285D718BF}|elearning.ContentService.API\\elearning.ContentService.Api.csproj|d:\\vcs_project\\elearning\\elearning.contentservice.api\\elearning.contentservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{579C6A82-4FFC-4017-EB14-4C0285D718BF}|elearning.ContentService.API\\elearning.ContentService.Api.csproj|solutionrelative:elearning.contentservice.api\\elearning.contentservice.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15E5ADCD-C996-9203-0C9D-25E1A1E4640A}|elearning.ContentService.Infrastructure\\elearning.ContentService.Infrastructure.csproj|d:\\vcs_project\\elearning\\elearning.contentservice.infrastructure\\persistence\\contentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15E5ADCD-C996-9203-0C9D-25E1A1E4640A}|elearning.ContentService.Infrastructure\\elearning.ContentService.Infrastructure.csproj|solutionrelative:elearning.contentservice.infrastructure\\persistence\\contentdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15E5ADCD-C996-9203-0C9D-25E1A1E4640A}|elearning.ContentService.Infrastructure\\elearning.ContentService.Infrastructure.csproj|d:\\vcs_project\\elearning\\elearning.contentservice.infrastructure\\configurations\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15E5ADCD-C996-9203-0C9D-25E1A1E4640A}|elearning.ContentService.Infrastructure\\elearning.ContentService.Infrastructure.csproj|solutionrelative:elearning.contentservice.infrastructure\\configurations\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\vcs_project\\elearning\\elearning.Infrastructure\\Configurations\\DependencyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:elearning.Infrastructure\\Configurations\\DependencyInjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|d:\\vcs_project\\elearning\\sharedkernel\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|solutionrelative:sharedkernel\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|d:\\vcs_project\\elearning\\sharedkernel\\utilities\\guard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|solutionrelative:sharedkernel\\utilities\\guard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|d:\\vcs_project\\elearning\\sharedkernel\\common\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|solutionrelative:sharedkernel\\common\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|d:\\vcs_project\\elearning\\sharedkernel\\common\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|solutionrelative:sharedkernel\\common\\error.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|d:\\vcs_project\\elearning\\sharedkernel\\specifications\\ispecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|solutionrelative:sharedkernel\\specifications\\ispecification.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|d:\\vcs_project\\elearning\\sharedkernel\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|solutionrelative:sharedkernel\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|d:\\vcs_project\\elearning\\sharedkernel\\pagination\\paginationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|solutionrelative:sharedkernel\\pagination\\paginationextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|d:\\vcs_project\\elearning\\sharedkernel\\pagination\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|solutionrelative:sharedkernel\\pagination\\pagedresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|d:\\vcs_project\\elearning\\sharedkernel\\pagination\\pagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|solutionrelative:sharedkernel\\pagination\\pagerequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|d:\\vcs_project\\elearning\\sharedkernel\\interfaces\\ieventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|solutionrelative:sharedkernel\\interfaces\\ieventdispatcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|d:\\vcs_project\\elearning\\sharedkernel\\interfaces\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|solutionrelative:sharedkernel\\interfaces\\icacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|d:\\vcs_project\\elearning\\sharedkernel\\interfaces\\iguidgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|solutionrelative:sharedkernel\\interfaces\\iguidgenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|d:\\vcs_project\\elearning\\sharedkernel\\interfaces\\icurrentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|solutionrelative:sharedkernel\\interfaces\\icurrentuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|d:\\vcs_project\\elearning\\sharedkernel\\constants\\headernames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|solutionrelative:sharedkernel\\constants\\headernames.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|d:\\vcs_project\\elearning\\sharedkernel\\constants\\dateformats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|solutionrelative:sharedkernel\\constants\\dateformats.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|d:\\vcs_project\\elearning\\sharedkernel\\constants\\claimtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|solutionrelative:sharedkernel\\constants\\claimtypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|d:\\vcs_project\\elearning\\sharedkernel\\constants\\cachekeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|solutionrelative:sharedkernel\\constants\\cachekeys.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|d:\\vcs_project\\elearning\\sharedkernel\\constants\\mimetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E68FA0BA-F0A4-F704-5156-C748B031AB9D}|SharedKernel\\SharedKernel.csproj|solutionrelative:sharedkernel\\constants\\mimetypes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\vcs_project\\elearning\\elearning\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:elearning\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\vcs_project\\elearning\\elearning\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:elearning\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\vcs_project\\elearning\\elearning\\Controllers\\WeatherForecastController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:elearning\\Controllers\\WeatherForecastController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\vcs_project\\elearning\\elearning\\WeatherForecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:elearning\\WeatherForecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\vcs_project\\elearning\\elearning.Infrastructure\\Persistence\\ContentDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:elearning.Infrastructure\\Persistence\\ContentDbContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\elearning.ContentService.API\\Program.cs",
+              "RelativeDocumentMoniker": "elearning.ContentService.API\\Program.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\elearning.ContentService.API\\Program.cs",
+              "RelativeToolTip": "elearning.ContentService.API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T03:54:04.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AggregateRoot.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\SharedKernel\\Common\\AggregateRoot.cs",
+              "RelativeDocumentMoniker": "SharedKernel\\Common\\AggregateRoot.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\SharedKernel\\Common\\AggregateRoot.cs",
+              "RelativeToolTip": "SharedKernel\\Common\\AggregateRoot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T08:58:01.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BaseSpecification.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\SharedKernel\\Specifications\\BaseSpecification.cs",
+              "RelativeDocumentMoniker": "SharedKernel\\Specifications\\BaseSpecification.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\SharedKernel\\Specifications\\BaseSpecification.cs",
+              "RelativeToolTip": "SharedKernel\\Specifications\\BaseSpecification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T09:45:02.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GlobalUsing.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\elearning.ContentService.API\\GlobalUsing.cs",
+              "RelativeDocumentMoniker": "elearning.ContentService.API\\GlobalUsing.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\elearning.ContentService.API\\GlobalUsing.cs",
+              "RelativeToolTip": "elearning.ContentService.API\\GlobalUsing.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T07:31:49.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "elearning.ContentService.Domain",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\elearning.ContentService.Domain\\elearning.ContentService.Domain.csproj",
+              "RelativeDocumentMoniker": "elearning.ContentService.Domain\\elearning.ContentService.Domain.csproj",
+              "ToolTip": "D:\\vcs_project\\elearning\\elearning.ContentService.Domain\\elearning.ContentService.Domain.csproj",
+              "RelativeToolTip": "elearning.ContentService.Domain\\elearning.ContentService.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-23T07:23:34.093Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "elearning.ContentService.Api",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\elearning.ContentService.API\\elearning.ContentService.Api.csproj",
+              "RelativeDocumentMoniker": "elearning.ContentService.API\\elearning.ContentService.Api.csproj",
+              "ToolTip": "D:\\vcs_project\\elearning\\elearning.ContentService.API\\elearning.ContentService.Api.csproj",
+              "RelativeToolTip": "elearning.ContentService.API\\elearning.ContentService.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-07-23T07:25:58.277Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ContentDbContext.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\elearning.ContentService.Infrastructure\\Persistence\\ContentDbContext.cs",
+              "RelativeDocumentMoniker": "elearning.ContentService.Infrastructure\\Persistence\\ContentDbContext.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\elearning.ContentService.Infrastructure\\Persistence\\ContentDbContext.cs",
+              "RelativeToolTip": "elearning.ContentService.Infrastructure\\Persistence\\ContentDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T07:25:15.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\elearning.ContentService.Infrastructure\\Configurations\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "elearning.ContentService.Infrastructure\\Configurations\\DependencyInjection.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\elearning.ContentService.Infrastructure\\Configurations\\DependencyInjection.cs",
+              "RelativeToolTip": "elearning.ContentService.Infrastructure\\Configurations\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-23T07:25:11.948Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:133:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\elearning\\Program.cs",
+              "RelativeDocumentMoniker": "elearning\\Program.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\elearning\\Program.cs",
+              "RelativeToolTip": "elearning\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T09:03:27.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\SharedKernel\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "SharedKernel\\Interfaces\\IRepository.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\SharedKernel\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "SharedKernel\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T08:50:55.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\elearning\\appsettings.json",
+              "RelativeDocumentMoniker": "elearning\\appsettings.json",
+              "ToolTip": "D:\\vcs_project\\elearning\\elearning\\appsettings.json",
+              "RelativeToolTip": "elearning\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-07-22T04:07:02.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\elearning.Infrastructure\\Configurations\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "elearning.Infrastructure\\Configurations\\DependencyInjection.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\elearning.Infrastructure\\Configurations\\DependencyInjection.cs",
+              "RelativeToolTip": "elearning.Infrastructure\\Configurations\\DependencyInjection.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T08:47:12.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ContentDbContext.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\elearning.Infrastructure\\Persistence\\ContentDbContext.cs",
+              "RelativeDocumentMoniker": "elearning.Infrastructure\\Persistence\\ContentDbContext.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\elearning.Infrastructure\\Persistence\\ContentDbContext.cs",
+              "RelativeToolTip": "elearning.Infrastructure\\Persistence\\ContentDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T08:59:09.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Guard.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\SharedKernel\\Utilities\\Guard.cs",
+              "RelativeDocumentMoniker": "SharedKernel\\Utilities\\Guard.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\SharedKernel\\Utilities\\Guard.cs",
+              "RelativeToolTip": "SharedKernel\\Utilities\\Guard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T08:37:17.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Result.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\SharedKernel\\Common\\Result.cs",
+              "RelativeDocumentMoniker": "SharedKernel\\Common\\Result.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\SharedKernel\\Common\\Result.cs",
+              "RelativeToolTip": "SharedKernel\\Common\\Result.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T08:03:47.755Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Error.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\SharedKernel\\Common\\Error.cs",
+              "RelativeDocumentMoniker": "SharedKernel\\Common\\Error.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\SharedKernel\\Common\\Error.cs",
+              "RelativeToolTip": "SharedKernel\\Common\\Error.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T08:02:30.072Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ISpecification.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\SharedKernel\\Specifications\\ISpecification.cs",
+              "RelativeDocumentMoniker": "SharedKernel\\Specifications\\ISpecification.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\SharedKernel\\Specifications\\ISpecification.cs",
+              "RelativeToolTip": "SharedKernel\\Specifications\\ISpecification.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T09:35:05.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\SharedKernel\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "SharedKernel\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\SharedKernel\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "SharedKernel\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T09:05:10.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\elearning\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "elearning\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\elearning\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "elearning\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T04:06:46.382Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\elearning\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "elearning\\WeatherForecast.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\elearning\\WeatherForecast.cs",
+              "RelativeToolTip": "elearning\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-22T04:06:31.346Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "PaginationExtensions.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\SharedKernel\\Pagination\\PaginationExtensions.cs",
+              "RelativeDocumentMoniker": "SharedKernel\\Pagination\\PaginationExtensions.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\SharedKernel\\Pagination\\PaginationExtensions.cs",
+              "RelativeToolTip": "SharedKernel\\Pagination\\PaginationExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T09:18:28.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PagedResult.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\SharedKernel\\Pagination\\PagedResult.cs",
+              "RelativeDocumentMoniker": "SharedKernel\\Pagination\\PagedResult.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\SharedKernel\\Pagination\\PagedResult.cs",
+              "RelativeToolTip": "SharedKernel\\Pagination\\PagedResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T09:12:35.222Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PageRequest.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\SharedKernel\\Pagination\\PageRequest.cs",
+              "RelativeDocumentMoniker": "SharedKernel\\Pagination\\PageRequest.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\SharedKernel\\Pagination\\PageRequest.cs",
+              "RelativeToolTip": "SharedKernel\\Pagination\\PageRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T09:11:29.823Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "IEventDispatcher.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\SharedKernel\\Interfaces\\IEventDispatcher.cs",
+              "RelativeDocumentMoniker": "SharedKernel\\Interfaces\\IEventDispatcher.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\SharedKernel\\Interfaces\\IEventDispatcher.cs",
+              "RelativeToolTip": "SharedKernel\\Interfaces\\IEventDispatcher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T09:08:49.283Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ICacheService.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\SharedKernel\\Interfaces\\ICacheService.cs",
+              "RelativeDocumentMoniker": "SharedKernel\\Interfaces\\ICacheService.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\SharedKernel\\Interfaces\\ICacheService.cs",
+              "RelativeToolTip": "SharedKernel\\Interfaces\\ICacheService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T09:08:37.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IGuidGenerator.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\SharedKernel\\Interfaces\\IGuidGenerator.cs",
+              "RelativeDocumentMoniker": "SharedKernel\\Interfaces\\IGuidGenerator.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\SharedKernel\\Interfaces\\IGuidGenerator.cs",
+              "RelativeToolTip": "SharedKernel\\Interfaces\\IGuidGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T09:08:22.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ICurrentUser.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\SharedKernel\\Interfaces\\ICurrentUser.cs",
+              "RelativeDocumentMoniker": "SharedKernel\\Interfaces\\ICurrentUser.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\SharedKernel\\Interfaces\\ICurrentUser.cs",
+              "RelativeToolTip": "SharedKernel\\Interfaces\\ICurrentUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T09:05:43.634Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "HeaderNames.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\SharedKernel\\Constants\\HeaderNames.cs",
+              "RelativeDocumentMoniker": "SharedKernel\\Constants\\HeaderNames.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\SharedKernel\\Constants\\HeaderNames.cs",
+              "RelativeToolTip": "SharedKernel\\Constants\\HeaderNames.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T08:21:56.524Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "DateFormats.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\SharedKernel\\Constants\\DateFormats.cs",
+              "RelativeDocumentMoniker": "SharedKernel\\Constants\\DateFormats.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\SharedKernel\\Constants\\DateFormats.cs",
+              "RelativeToolTip": "SharedKernel\\Constants\\DateFormats.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T07:51:30.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ClaimTypes.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\SharedKernel\\Constants\\ClaimTypes.cs",
+              "RelativeDocumentMoniker": "SharedKernel\\Constants\\ClaimTypes.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\SharedKernel\\Constants\\ClaimTypes.cs",
+              "RelativeToolTip": "SharedKernel\\Constants\\ClaimTypes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBAAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T07:50:41.223Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CacheKeys.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\SharedKernel\\Constants\\CacheKeys.cs",
+              "RelativeDocumentMoniker": "SharedKernel\\Constants\\CacheKeys.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\SharedKernel\\Constants\\CacheKeys.cs",
+              "RelativeToolTip": "SharedKernel\\Constants\\CacheKeys.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T07:51:51.721Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "MimeTypes.cs",
+              "DocumentMoniker": "D:\\vcs_project\\elearning\\SharedKernel\\Constants\\MimeTypes.cs",
+              "RelativeDocumentMoniker": "SharedKernel\\Constants\\MimeTypes.cs",
+              "ToolTip": "D:\\vcs_project\\elearning\\SharedKernel\\Constants\\MimeTypes.cs",
+              "RelativeToolTip": "SharedKernel\\Constants\\MimeTypes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-21T08:09:10.927Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
