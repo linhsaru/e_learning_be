@@ -12,9 +12,10 @@
 
   <ItemGroup>
     <Folder Include="Courses\" />
-    <Folder Include="Knowledge\" />
+    <Folder Include="Knowledge\ValueObjects\" />
+    <Folder Include="Knowledge\Specifications\" />
+    <Folder Include="Knowledge\Repositories\" />
     <Folder Include="Lessons\" />
-    <Folder Include="MasterData\Entities\" />
     <Folder Include="MasterData\Repositories\" />
     <Folder Include="MasterData\Specifications\" />
     <Folder Include="MasterData\ValueObjects\" />

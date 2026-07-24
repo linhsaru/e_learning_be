@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("elearning.ContentService.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a21735aa5bb512cd01e2e25f5ad7d55ffb5b887c")]
 [assembly: System.Reflection.AssemblyProductAttribute("elearning.ContentService.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("elearning.ContentService.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
