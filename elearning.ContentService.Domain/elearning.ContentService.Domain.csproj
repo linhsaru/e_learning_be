@@ -11,20 +11,15 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Courses\" />
     <Folder Include="Knowledge\ValueObjects\" />
     <Folder Include="Knowledge\Specifications\" />
     <Folder Include="Knowledge\Repositories\" />
-    <Folder Include="Lessons\" />
     <Folder Include="MasterData\Repositories\" />
     <Folder Include="MasterData\Specifications\" />
     <Folder Include="MasterData\ValueObjects\" />
-    <Folder Include="Media\" />
-    <Folder Include="Common\" />
     <Folder Include="Events\" />
     <Folder Include="Assessment\" />
     <Folder Include="Specifications\" />
-    <Folder Include="Questions\" />
   </ItemGroup>
 
 </Project>

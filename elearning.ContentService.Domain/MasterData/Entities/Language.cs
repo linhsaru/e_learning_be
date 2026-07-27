@@ -1,19 +1,38 @@
-﻿using SharedKernel.Common;
+using elearning.ContentService.Domain.Knowledge.Entities;
+using SharedKernel.Common;
 using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace elearning.ContentService.Domain.MasterData.Entities
 {
     /// <summary>
-    /// Ngôn ngữ
+    /// Thực thể Ngôn ngữ (Master Data)
     /// </summary>
     public class Language : BaseEntity<Guid>
     {
-        public required string Code { get; set; } //Code: KO, VI, JP,...
+        /// <summary>
+        /// Mã ngôn ngữ chuẩn ISO (VD: zh, en, vi, ko, ja)
+        /// </summary>
+        public required string Code { get; set; }
 
-        public string? Name { get; set; } //Name: Korean, Vietnamese, Japanese
+        /// <summary>
+        /// Tên ngôn ngữ hiển thị (VD: Tiếng Trung, English, Tiếng Việt)
+        /// </summary>
+        public required string Name { get; set; }
 
+        /// <summary>
+        /// Danh sách các cấp độ học thuộc ngôn ngữ này
+        /// </summary>
         public ICollection<Level> Levels { get; set; } = new List<Level>();
+
+        /// <summary>
+        /// Danh sách các từ vựng thuộc ngôn ngữ này
+        /// </summary>
+        public ICollection<Vocabulary> Vocabularies { get; set; } = new List<Vocabulary>();
+
+        /// <summary>
+        /// Danh sách các cấu trúc ngữ pháp thuộc ngôn ngữ này
+        /// </summary>
+        public ICollection<Grammar> Grammars { get; set; } = new List<Grammar>();
     }
 }
