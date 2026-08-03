@@ -1,6 +1,6 @@
 using elearning.ContentService.Domain.Common.Enums;
 using elearning.ContentService.Domain.Knowledge.Entities;
-using elearning.ContentService.Domain.Questions;
+using elearning.ContentService.Domain.Questions.Entities;
 using SharedKernel.Common;
 using System;
 using System.Collections.Generic;

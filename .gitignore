@@ -86,3 +86,6 @@ tools/packages.config
 .Trashes
 ehthumbs.db
 Thumbs.db
+
+.claude/*
+docs/*

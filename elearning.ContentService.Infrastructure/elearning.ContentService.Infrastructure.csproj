@@ -26,14 +26,13 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Courses\" />
-    <Folder Include="Knowledge\" />
-    <Folder Include="Lessons\" />
-    <Folder Include="MasterData\" />
-    <Folder Include="Media\" />
+    <Folder Include="Persistence\Repositories\Courses\" />
+    <Folder Include="Persistence\Repositories\Knowledge\" />
+    <Folder Include="Persistence\Repositories\Lessons\" />
+    <Folder Include="Persistence\Repositories\MasterData\" />
+    <Folder Include="Persistence\Repositories\Media\" />
     <Folder Include="Migrations\" />
     <Folder Include="Assessment\" />
-    <Folder Include="Questions\" />
   </ItemGroup>
 
 </Project>

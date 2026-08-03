@@ -1,4 +1,4 @@
-using elearning.ContentService.Domain.Questions;
+using elearning.ContentService.Domain.Questions.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

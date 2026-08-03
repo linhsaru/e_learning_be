@@ -1,7 +1,8 @@
 using SharedKernel.Common;
 using System;
+using System.Diagnostics.CodeAnalysis;
 
-namespace elearning.ContentService.Domain.Questions
+namespace elearning.ContentService.Domain.Questions.Entities
 {
     /// <summary>
     /// Các lựa chọn phương án đáp án cho Câu hỏi
@@ -32,5 +33,17 @@ namespace elearning.ContentService.Domain.Questions
         /// Câu hỏi sở hữu
         /// </summary>
         public Question Question { get; set; } = null!;
+
+        public Option() { }
+
+        [SetsRequiredMembers]
+        public Option(Guid id, Guid questionId, string content, bool isCorrect, int orderIndex)
+        {
+            Id = id;
+            QuestionId = questionId;
+            Content = content;
+            IsCorrect = isCorrect;
+            OrderIndex = orderIndex;
+        }
     }
 }

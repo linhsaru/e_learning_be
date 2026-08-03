@@ -3,7 +3,7 @@ using SharedKernel.Common;
 using System;
 using System.Collections.Generic;
 
-namespace elearning.ContentService.Domain.Questions
+namespace elearning.ContentService.Domain.Questions.Entities
 {
     /// <summary>
     /// Thực thể Đề thi / Bài kiểm tra (Assessment/Exam)

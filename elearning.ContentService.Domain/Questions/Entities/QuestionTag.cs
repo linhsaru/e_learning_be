@@ -1,7 +1,7 @@
 using elearning.ContentService.Domain.MasterData.Entities;
 using System;
 
-namespace elearning.ContentService.Domain.Questions
+namespace elearning.ContentService.Domain.Questions.Entities
 {
     /// <summary>
     /// Bảng liên kết Nhiều - Nhiều giữa Câu hỏi và Thẻ phân loại/Chủ đề

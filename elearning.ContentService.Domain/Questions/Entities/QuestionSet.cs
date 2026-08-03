@@ -4,7 +4,7 @@ using SharedKernel.Common;
 using System;
 using System.Collections.Generic;
 
-namespace elearning.ContentService.Domain.Questions
+namespace elearning.ContentService.Domain.Questions.Entities
 {
     /// <summary>
     /// Tập hợp các câu hỏi (Bộ đề / Bộ câu hỏi, VD: Reading Part 1, HSK4 Listening Test)

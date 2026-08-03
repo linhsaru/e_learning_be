@@ -3,7 +3,7 @@ using SharedKernel.Common;
 using System;
 using System.Collections.Generic;
 
-namespace elearning.ContentService.Domain.Questions
+namespace elearning.ContentService.Domain.Questions.Entities
 {
     /// <summary>
     /// Thực thể Câu hỏi đơn
@@ -64,5 +64,57 @@ namespace elearning.ContentService.Domain.Questions
         /// Danh sách thẻ chủ đề phân loại gắn cho câu hỏi
         /// </summary>
         public ICollection<QuestionTag> QuestionTags { get; set; } = new List<QuestionTag>();
+    
+        public Question() { }
+
+        public static Question Create(
+            Guid questionSetId,
+            QuestionType questionType,
+            string content,
+            SkillType? skillType = null,
+            Guid? questionGroupId = null,
+            string? hint = null)
+        {
+            var question = new Question
+            {
+                QuestionSetId = questionSetId,
+                QuestionGroupId = questionGroupId,
+                QuestionType = questionType,
+                SkillType = skillType,
+                Content = content,
+                Hint = hint
+            };
+            question.MarkAsCreated();
+            return question;
+        }
+
+        public void Update(
+            QuestionType questionType,
+            string content,
+            SkillType? skillType = null,
+            Guid? questionGroupId = null,
+            string? hint = null)
+        {
+            QuestionType = questionType;
+            Content = content;
+            SkillType = skillType;
+            QuestionGroupId = questionGroupId;
+            Hint = hint;
+            MarkAsUpdated();
+        }
+
+        public Option AddOption(string content, bool isCorrect, int orderIndex)
+        {
+            var option = new Option(Guid.NewGuid(), Id, content, isCorrect, orderIndex);
+            Options.Add(option);
+            return option;
+        }
+
+        public Explanation AddExplanation(string explanationText, Guid? mediaId = null)
+        {
+            var explanation = new Explanation(Guid.NewGuid(), Id, explanationText, mediaId);
+            Explanations.Add(explanation);
+            return explanation;
+        }
     }
 }

@@ -3,7 +3,7 @@ using elearning.ContentService.Domain.Knowledge.Entities;
 using elearning.ContentService.Domain.Lessons;
 using elearning.ContentService.Domain.MasterData.Entities;
 using elearning.ContentService.Domain.Media;
-using elearning.ContentService.Domain.Questions;
+using elearning.ContentService.Domain.Questions.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace elearning.ContentService.Infrastructure.Persistence

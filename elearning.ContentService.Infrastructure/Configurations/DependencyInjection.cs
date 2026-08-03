@@ -1,4 +1,6 @@
-﻿using elearning.ContentService.Infrastructure.Persistence;
+using elearning.ContentService.Domain.Questions.Repositories;
+using elearning.ContentService.Infrastructure.Persistence;
+using elearning.ContentService.Infrastructure.Persistence.Repositories.Questions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -18,6 +20,9 @@ namespace elearning.ContentService.Infrastructure.Configurations
             {
                 options.UseNpgsql(configuration.GetConnectionString("DefaultConnection"));
             });
+
+            services.AddScoped<IQuestionRepository, QuestionRepository>();
+
             return services;
         }
     }

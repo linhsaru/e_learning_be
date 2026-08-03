@@ -3,7 +3,7 @@ using SharedKernel.Common;
 using System;
 using System.Collections.Generic;
 
-namespace elearning.ContentService.Domain.Questions
+namespace elearning.ContentService.Domain.Questions.Entities
 {
     /// <summary>
     /// Nhóm câu hỏi (Dùng cho dạng bài dùng chung 1 đoạn văn đọc hiểu hoặc 1 file âm thanh nghe)

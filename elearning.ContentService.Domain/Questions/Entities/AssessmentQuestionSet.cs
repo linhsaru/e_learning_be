@@ -1,6 +1,6 @@
 using System;
 
-namespace elearning.ContentService.Domain.Questions
+namespace elearning.ContentService.Domain.Questions.Entities
 {
     /// <summary>
     /// Bảng liên kết Nhiều - Nhiều giữa Đề thi (Assessment) và Tập câu hỏi (QuestionSet)
