@@ -107,5 +107,31 @@ namespace elearning.ContentService.API.Controllers.Questions
 
             return NoContent();
         }
+
+        /// <summary>
+        /// Import danh sách câu hỏi, phương án đáp án và lời giải thích từ file Excel (.xlsx, .xls)
+        /// </summary>
+        [HttpPost("import-excel/{questionSetId:guid}")]
+        [Consumes("multipart/form-data")]
+        [ProducesResponseType(typeof(ImportQuestionsResultDto), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(Error), StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> ImportExcel([FromRoute] Guid questionSetId, IFormFile file, CancellationToken ct)
+        {
+            if (file == null || file.Length == 0)
+            {
+                return BadRequest(Error.Validation("File.Empty", "Please upload a valid Excel file."));
+            }
+
+            using var stream = file.OpenReadStream();
+            var command = new ImportQuestionsFromExcelCommand(questionSetId, stream);
+            var result = await _sender.Send(command, ct);
+
+            if (result.IsFailure)
+            {
+                return BadRequest(result.Error);
+            }
+
+            return Ok(result.Value);
+        }
     }
 }
