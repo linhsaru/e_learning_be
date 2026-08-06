@@ -26,6 +26,8 @@ namespace elearning.ContentService.Infrastructure.Configurations.EntityToTable
                 .WithMany(x => x.Levels)
                 .HasForeignKey(x => x.LanguageId)
                 .OnDelete(DeleteBehavior.Restrict);
+
+            builder.HasQueryFilter(x => !x.IsDeleted);
         }
     }
 }

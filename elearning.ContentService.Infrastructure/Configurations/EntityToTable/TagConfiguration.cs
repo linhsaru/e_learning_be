@@ -24,6 +24,8 @@ namespace elearning.ContentService.Infrastructure.Configurations.EntityToTable
 
             builder.Property(x => x.Type)
                 .IsRequired();
+
+            builder.HasQueryFilter(x => !x.IsDeleted);
         }
     }
 }

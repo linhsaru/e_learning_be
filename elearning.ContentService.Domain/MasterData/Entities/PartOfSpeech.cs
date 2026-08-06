@@ -6,7 +6,7 @@ namespace elearning.ContentService.Domain.MasterData.Entities
     /// <summary>
     /// Từ loại trong ngôn ngữ (Danh từ, Động từ, Tính từ...)
     /// </summary>
-    public class PartOfSpeech : BaseEntity<int>
+    public class PartOfSpeech : AuditableEntity<int>
     {
         /// <summary>
         /// Mã từ loại (VD: NOUN, VERB, ADJ)
@@ -36,6 +36,34 @@ namespace elearning.ContentService.Domain.MasterData.Entities
         /// <summary>
         /// Trạng thái hoạt động
         /// </summary>
-        public bool IsActive { get; set; }
+        public bool IsActive { get; set; } = true;
+
+        public PartOfSpeech() { }
+
+        public static PartOfSpeech Create(string code, string? name, string? shortName, string? description, int orderIndex = 0, bool isActive = true)
+        {
+            var entity = new PartOfSpeech
+            {
+                Code = code,
+                Name = name,
+                ShortName = shortName,
+                Description = description,
+                OrderIndex = orderIndex,
+                IsActive = isActive
+            };
+            entity.MarkAsCreated();
+            return entity;
+        }
+
+        public void Update(string code, string? name, string? shortName, string? description, int orderIndex, bool isActive)
+        {
+            Code = code;
+            Name = name;
+            ShortName = shortName;
+            Description = description;
+            OrderIndex = orderIndex;
+            IsActive = isActive;
+            MarkAsUpdated();
+        }
     }
 }

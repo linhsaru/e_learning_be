@@ -10,7 +10,7 @@ namespace elearning.ContentService.Domain.MasterData.Entities
     /// <summary>
     /// Cấp độ trình độ học (CEFR, HSK, TOPIK, JLPT...)
     /// </summary>
-    public class Level : BaseEntity<Guid>
+    public class Level : AuditableEntity<Guid>
     {
         /// <summary>
         /// Mã định danh cấp độ (VD: HSK4, B2, TOPIK3)
@@ -61,5 +61,30 @@ namespace elearning.ContentService.Domain.MasterData.Entities
         /// Danh sách ngữ pháp thuộc cấp độ này
         /// </summary>
         public ICollection<Grammar> Grammars { get; set; } = new List<Grammar>();
+
+        public Level() { }
+
+        public static Level Create(string code, string name, Guid languageId, int orderIndex = 0)
+        {
+            var entity = new Level
+            {
+                Id = Guid.NewGuid(),
+                Code = code,
+                Name = name,
+                LanguageId = languageId,
+                OrderIndex = orderIndex
+            };
+            entity.MarkAsCreated();
+            return entity;
+        }
+
+        public void Update(string code, string name, Guid languageId, int orderIndex)
+        {
+            Code = code;
+            Name = name;
+            LanguageId = languageId;
+            OrderIndex = orderIndex;
+            MarkAsUpdated();
+        }
     }
 }

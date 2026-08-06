@@ -23,6 +23,8 @@ namespace elearning.ContentService.Infrastructure.Configurations.EntityToTable
 
             builder.Property(x => x.Description)
                 .HasMaxLength(500);
+
+            builder.HasQueryFilter(x => !x.IsDeleted);
         }
     }
 }

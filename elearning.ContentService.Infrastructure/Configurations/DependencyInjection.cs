@@ -1,5 +1,7 @@
+using elearning.ContentService.Domain.MasterData.Repositories;
 using elearning.ContentService.Domain.Questions.Repositories;
 using elearning.ContentService.Infrastructure.Persistence;
+using elearning.ContentService.Infrastructure.Persistence.Repositories;
 using elearning.ContentService.Infrastructure.Persistence.Repositories.Questions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -22,6 +24,7 @@ namespace elearning.ContentService.Infrastructure.Configurations
             });
 
             services.AddScoped<IQuestionRepository, QuestionRepository>();
+            services.AddScoped<IMasterDataRepository, MasterDataRepository>();
 
             return services;
         }
